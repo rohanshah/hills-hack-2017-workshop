@@ -1,0 +1,11 @@
+{
+  "name": "wh-hackathon-2017-chat",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

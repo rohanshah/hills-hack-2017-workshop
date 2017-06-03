@@ -17,3 +17,5 @@
 
 // Step (5): https://socket.io/docs/emit-cheatsheet/
 // - make the handler use the socket object to emit a message to all its listeners.
+
+console.log("Hello, hacker");

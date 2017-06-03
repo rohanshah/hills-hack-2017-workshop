@@ -9,10 +9,20 @@ Uses Docker to quickly package, install, and run the application.
 Uses ngrok to provide a public url for the application running on localhost.
 
 ## Requirements
-- Docker: https://www.docker.com
+- npm: https://www.docker.co://nodejs.org/en/download/
 - ngrock [optional]: https://ngrok.com/download
 
+## Install
+```
+npm install
+```
+
 ## Run
+```
+npm run
+```
+
+## Docker
 ```
 > docker build -t chat-app .
 > docker run -d -p 3000:3000 chat-app

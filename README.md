@@ -19,7 +19,7 @@ npm install
 
 ## Run
 ```
-npm run
+node server.js
 ```
 
 ## Docker

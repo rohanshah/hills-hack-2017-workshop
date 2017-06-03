@@ -30,8 +30,8 @@ app.get('/', function(req, res){
 // - Use the Socket.io object to set up a handler on socket connection
 io.on('connection', function(socket) {
 
-    // Step (5): https://socket.io/docs/emit-cheatsheet/
-    // - make the handler use the socket object to emit a message to all its listeners.
+  // Step (5): https://socket.io/docs/emit-cheatsheet/
+  // - make the handler use the socket object to emit a message to all its listeners.
   socket.on('chat message', function(msg) {
     io.emit('chat message', msg);
   });

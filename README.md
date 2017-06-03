@@ -2,12 +2,15 @@
 Code for a simple chat web application using Node.js and JQuery to present as
 a workshop for students during Warren Hills High School's 2017 hackathon.
 
-## Dependencies
-### Docker
-You can get the Windows or Mac installer from https://www.docker.com
+Based on this Socket.IO tutorial: https://socket.io/get-started/chat/.
 
-### ngrock [optional]
-You can get the Windows or Mac installer from https://ngrok.com/download
+Uses Docker to quickly package, install, and run the application.
+
+Uses ngrok to provide a public url for the application running on localhost.
+
+## Requirements
+- Docker: https://www.docker.com
+- ngrock [optional]: https://ngrok.com/download
 
 ## Run
 ```
